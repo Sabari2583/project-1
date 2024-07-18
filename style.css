@@ -1,68 +1,75 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
 
 
-#header{
+#header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: sticky;
-    z-index: 999;
-    top:0;
-    left:0;
+    z-index: 1009;
+    top: 0;
+    left: 0;
     border-color: aquamarine;
     border-style: solid;
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.06 ) ;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     width: 100%;
     height: 120px;
-    background-color:sandybrown;
-    
-    
-}
-.img1{
-    width: 120px;
-    height: 120px;
-    background-color:sandybrown;
+    background-color: sandybrown;
+
 
 }
-.bar ul{
+
+.img1 {
+    width: 120px;
+    height: 120px;
+    background-color: sandybrown;
+
+}
+
+.bar ul {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
 }
-#con a{
+
+#con a {
     text-decoration: none;
 }
 
-#con a,li{
+#con a,
+li {
     list-style: none;
     padding: 0px 15px;
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
     color: khaki;
-    position:relative ;
+    position: relative;
 }
-#con a:hover,a.active
-{
+
+#con a:hover,
+a.active {
     cursor: pointer;
     color: red;
 }
-#con a.active::after,#con a:hover::after
-{
-    content:"";
+
+#con a.active::after,
+#con a:hover::after {
+    content: "";
     width: 30%;
     height: 2px;
     background: red;
     position: absolute;
     bottom: -4px;
-    left:30px;
+    left: 30px;
 }
-#hero{
-    
+
+#hero {
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -72,100 +79,111 @@
     background-size: cover;
     background-position: left 0px right 20%;
     height: 80vh;
-    width: 100%;    
+    width: 100%;
     position: relative;
 }
-.content{
+
+.content {
     padding-left: 25%;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     justify-content: space-between;
     line-height: 5;
     position: relative;
 }
-.content h3{
+
+.content h3 {
     font-size: 50px;
     position: relative;
     bottom: 30px;
     color: rgb(252, 59, 59);
-   
+
 
 }
-.content h1{
+
+.content h1 {
     font-size: 35px;
     position: relative;
     bottom: 150px;
-    color:brown;
-    
+    color: brown;
+
 }
-.content p{
+
+.content p {
     color: rgb(252, 59, 59);
     font-weight: 400;
     font-size: xx-large;
     position: relative;
     bottom: 230px;
 }
-.content a{
+
+.content a {
     position: absolute;
     bottom: 31%;
     left: 60%;
 
 }
-.button{
+
+.button {
     background-image: url(button.png);
     border: none;
     background-repeat: no-repeat;
     background-color: transparent;
-    font-size:20px;
+    font-size: 20px;
     position: relative;
     bottom: 40%;
     padding: 14px 80px 14px 64px;
     cursor: pointer;
     color: brown;
 }
-button:hover{
+
+button:hover {
     color: grey;
 }
-.hh{
+
+.hh {
     text-align: center;
     font-size: x-large;
     padding: 20px;
     color: rgb(252, 59, 59);
 }
-.FF{
-   
+
+.FF {
+
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    
+
 }
-.box{
+
+.box {
     border: 2px;
     border-radius: 1px;
     border-style: solid;
     border-color: black;
     text-align: center;
-    padding:10px;
+    padding: 10px;
     padding-bottom: 10px;
     color: brown;
 }
-.box p{
+
+.box p {
     background-image: url(button.png);
     background-repeat: no-repeat;
     margin-top: 10px;
-    
+
 }
 
 
-#prod1 h3{
+#prod1 h3 {
     padding-top: 20px;
     color: sandybrown;
     text-align: center;
     font-size: 30px;
 }
 
-#prod1 h5{
+#prod1 h5 {
 
     text-align: center;
     margin-bottom: 10px;
@@ -173,16 +191,17 @@ button:hover{
     color: brown;
 
 }
+
 .pcon {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px;
-    
+
 
 }
 
-.p1{
+.p1 {
     background-color: khaki;
     border: 1px solid white;
     border-radius: 20px;
@@ -190,40 +209,48 @@ button:hover{
     position: relative;
     margin-bottom: 30px;
 }
-.p1 .rating{
+
+.p1 .rating {
     color: goldenrod;
 }
-.p1 .des{
+
+.p1 .des {
     text-align: center;
 
 }
-.p1 img{
+
+.p1 img {
     border-radius: 10px;
     width: 300px;
-    height:300px
+    height: 300px
 }
-.des h2{
-    color:brown;
+
+.des h2 {
+    color: brown;
 }
-.des h1{
+
+.des h1 {
     color: green;
 }
-.s1{
+
+.s1 {
     border: 2px solid brown;
     border-radius: 50px;
     padding: 5px;
     background-color: beige;
-    color:brown;
+    color: brown;
     position: absolute;
     right: 10px;
     bottom: 10px;
     cursor: pointer;
 }
-.s1:hover{
-    background-color:greenyellow;
+
+.s1:hover {
+    background-color: greenyellow;
 
 }
-#add{
+
+#add {
     margin-top: 40px;
     text-align: center;
     background-image: url(bb2.jpg);
@@ -231,48 +258,56 @@ button:hover{
     background-size: cover;
     width: 100%;
     height: 200px;
-    
+
 }
-.add1{
+
+.add1 {
     padding-top: 80px;
 }
-.add1 h3{
-    
+
+.add1 h3 {
+
     color: white;
     text-align: center;
     font-size: xx-large;
 }
-.add1 span{
+
+.add1 span {
     font-size: smaller;
     color: brown;
 
 }
-.but1{
+
+.but1 {
     margin-top: 20px;
     padding: 2px;
     color: brown;
     background-color: bisque;
 }
-.bb1{
+
+.bb1 {
     margin-top: 50px;
     text-align: center;
     background-image: url("b1.jpg");
     width: 100%;
     height: 200px;
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
-.bb1 h1{
+
+.bb1 h1 {
     padding-top: 50px;
     font-size: xx-large;
     margin-bottom: 15px;
     color: white;
 }
-.bb1 p{
+
+.bb1 p {
     color: white;
     font-weight: 600;
 }
+
 #con1 {
     color: white;
     text-align: center;
@@ -282,107 +317,128 @@ button:hover{
     background-size: cover;
     width: 100%;
     height: 300px;
-    
+
 }
-.cn1{
+
+.cn1 {
     padding: 100px 0px;
     color: gray;
 
 }
-.cn1 h3{
+
+.cn1 h3 {
     color: white;
     margin-bottom: 10px;
 }
-#con2{
+
+#con2 {
     display: flex;
     justify-content: space-around;
 }
-.cn2{
+
+.cn2 {
     margin-top: 25px;
     margin-left: 1px;
     padding: 10px;
     border: 1px solid black;
     border-radius: 5px;
 }
-.cn2 span{
+
+.cn2 span {
     margin-bottom: 20px;
 }
-.cn2 h3{
+
+.cn2 h3 {
     margin-bottom: 15px;
     font-size: xx-large;
     font: 400;
     color: brown;
 }
-.cn2 h1{
+
+.cn2 h1 {
     margin-bottom: 20px;
-    color:sandybrown;
-    
+    color: sandybrown;
+
 }
-.cn3 li{
+
+.cn3 li {
     color: black;
     line-height: 35px;
 }
-.map iframe{
-    
+
+.map iframe {
+
     margin-top: 30px;
-    width:600px; 
-    height:450px;
+    width: 600px;
+    height: 450px;
 }
 
 
-#fb form{
+#fb form {
     margin-top: 20px;
-    width:65%;
+    width: 65%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-#fb form span,h3{
+
+#fb form span,
+h3 {
     font-size: 38px;
     margin-bottom: 3px;
 }
-#fb form input,textarea{
+
+#fb form input,
+textarea {
     width: 100%;
     padding: 10px 12px;
     border: 2px solid rgb(238, 234, 234);
     margin-bottom: 10px;
 }
-#fb form button{
+
+#fb form button {
     border: 1px;
     color: beige;
     background-color: sandybrown;
     padding: 10px;
 }
-#fb form button:hover{
+
+#fb form button:hover {
     cursor: pointer;
 }
-#table{
+
+#table {
     padding: 20px;
-    border:1px solid sandybrown;
+    border: 1px solid sandybrown;
     margin: 20px;
-    
+
 }
-.tb1{
+
+.tb1 {
     width: 100%;
     border-collapse: collapse;
     table-layout: fixed;
     white-space: nowrap;
 
 }
-#table .by1 img{
+
+#table .by1 img {
     border: 1px solid skyblue;
-    width:100px;
-    height:100px;
-    
+    width: 100px;
+    height: 100px;
+
 }
-#table .r2 input{
+
+#table .r2 input {
     padding: 10px;
     width: 65px;
 }
-.tb1 .r2 td{
+
+.tb1 .r2 td {
     padding-top: 10px;
 }
-#table .r1{
+
+#table .r1 {
     font-weight: 700;
     text-transform: upperclase;
     margin-bottom: 10px;
@@ -391,63 +447,139 @@ button:hover{
 }
 
 
-@media (max-width:799px){
-    #header{
+@media (max-width:799px) {
+    #header {
         width: 100%;
     }
+
     .bar #con {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
     }
-    .bar #con li{
+
+    .bar #con li {
         margin-bottom: 2px;
     }
 
-    .content a{
+    .content a {
         position: relative;
-         bottom: 40%;
-         right: 10%;
+        bottom: 40%;
+        right: 10%;
         cursor: pointer;
     }
-  
-    .cn2{
+
+    .cn2 {
         justify-content: space-between;
     }
-    .FF{
-   
+
+    .FF {
+
         display: flex;
         justify-content: space-between;
-        padding: 10px;}
+        padding: 10px;
+    }
+
     .map iframe {
         width: 110%;
         height: 450px;
-}
+    }
 
 
 }
-@media(max-width:399px){
-    #header{
+
+@media(max-width:399px) {
+    #header {
         width: 100%;
+        position: sticky;
     }
-    #con2{
+
+    #con2 {
         display: inline;
-        
+
     }
-    .cn3{
+
+    .content {
+        padding-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+    }
+
+    .content h3 {
+        font-size: 30px;
+        position: relative;
+        left: 50px;
+        bottom: 30px;
+        color: rgb(252, 59, 59);
+
+
+    }
+
+    .content h1 {
+        font-size: 30px;
+        position: relative;
+        bottom: 100px;
+        left: 60px;
+        color: brown;
+
+    }
+
+    .content p {
+        color: rgb(252, 59, 59);
+        font-size: 21px;
+        position: relative;
+        bottom: 140px;
+        left: 48px;
+
+
+    }
+
+    .content a {
+        position: absolute;
+        bottom: 15%;
+        left: 40%;
+
+    }
+
+    .button {
+        font-size: 15px;
+        padding: 5px 40px 45px 68px;
+    }
+
+    .cn3 {
         width: 100%;
         height: 200px;
     }
-   .map iframe{
-    padding: 50px;
-    margin-top: 30px;
-    width: 250px;
-    height: 250px;
-   }
-    .cn2{
+
+    .map iframe {
+        padding: 50px;
+        margin-top: 30px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .FF .box {
+        margin-left: 50px;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 150px;
+    }
+
+    .FF {
+        display: inline;
+        justify-content: space-between;
+        width: 20px;
+        height: 20px;
+    }
+
+    .cn2 {
         justify-content: space-between;
     }
-    #fb{
+
+    #fb {
         margin-left: 20px;
     }
 }
