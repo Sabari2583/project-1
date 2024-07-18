@@ -505,11 +505,10 @@ textarea {
     }
 
 
-
-@media(max-width:399px) {
+@media(max-width:350px) {
     #header {
         width: 100%;
-        position: sticky;
+        
     }
 
     #con2 {
