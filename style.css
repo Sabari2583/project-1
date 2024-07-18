@@ -322,7 +322,7 @@ button:hover{
     color: black;
     line-height: 35px;
 }
-.mp1{
+.map iframe{
     
     margin-top: 30px;
     width:600px; 
@@ -356,28 +356,94 @@ button:hover{
 #fb form button:hover{
     cursor: pointer;
 }
+#table{
+    padding: 20px;
+    border:1px solid sandybrown;
+    margin: 20px;
+    
+}
+.tb1{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+
+}
+#table .by1 img{
+    border: 1px solid skyblue;
+    width:100px;
+    height:100px;
+    
+}
+#table .r2 input{
+    padding: 10px;
+    width: 65px;
+}
+.tb1 .r2 td{
+    padding-top: 10px;
+}
+#table .r1{
+    font-weight: 700;
+    text-transform: upperclase;
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid gray;
+}
 
 
 @media (max-width:799px){
     #header{
         width: 100%;
     }
-    .mp1{
-        width:400px;
-        height: 400px;
+    .bar #con {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
     }
+    .bar #con li{
+        margin-bottom: 2px;
+    }
+
+    .content a{
+        position: relative;
+         bottom: 40%;
+         right: 10%;
+        cursor: pointer;
+    }
+  
     .cn2{
         justify-content: space-between;
     }
+    .FF{
+   
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+    .map iframe {
+        width: 110%;
+        height: 450px;
+}
+
+
 }
 @media(max-width:399px){
     #header{
         width: 100%;
     }
-    .mp1{
-       
-        height: 400px;
-    } 
+    #con2{
+        display: inline;
+        
+    }
+    .cn3{
+        width: 100%;
+        height: 200px;
+    }
+   .map iframe{
+    padding: 50px;
+    margin-top: 30px;
+    width: 250px;
+    height: 250px;
+   }
     .cn2{
         justify-content: space-between;
     }
