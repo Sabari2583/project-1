@@ -467,18 +467,37 @@ textarea {
         bottom: 40%;
         right: 10%;
         cursor: pointer;
+    
+
+    }
+    .button {
+        position: absolute;
+        right: 192px;
+        top: -8px;
+        font-size: 15px;
+        padding: 5px 40px 45px 68px;
+
     }
 
     .cn2 {
         justify-content: space-between;
     }
 
-    .FF {
-
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
+   
+    .FF .box {
+        margin-left: 50px;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 150px;
     }
+    .FF {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+
 
     .map iframe {
         width: 110%;
@@ -486,7 +505,6 @@ textarea {
     }
 
 
-}
 
 @media(max-width:399px) {
     #header {
