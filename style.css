@@ -447,4 +447,7 @@ button:hover{
     .cn2{
         justify-content: space-between;
     }
+    #fb{
+        margin-left: 20px;
+    }
 }
