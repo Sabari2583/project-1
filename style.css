@@ -418,7 +418,7 @@ button:hover{
    
         display: flex;
         justify-content: space-between;
-        padding: 10px;
+        padding: 10px;}
     .map iframe {
         width: 110%;
         height: 450px;
