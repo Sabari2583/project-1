@@ -505,7 +505,7 @@ textarea {
         height: 450px;
     }
 
-
+/*
 @media(max-width:350px) {
     #header {
         width: 100%;
@@ -601,7 +601,11 @@ textarea {
         margin-left: 20px;
     }
 }
+*/
 @media screen (max-width: 380px){
+    #header{
+        width: 20%;
+    }
     .content h3 {
         top: 5px;
         left: 85px;
