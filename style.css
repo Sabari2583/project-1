@@ -496,136 +496,37 @@ textarea {
         flex-wrap: wrap;
         justify-content: space-around;
     }
-}
-
-
-
     .map iframe {
         width: 110%;
         height: 450px;
     }
-
-@media(max-width:350px) {
-    #header {
-        width: 100%;
-        
-    }
-
-    #con2 {
-        display: inline;
-
-    }
-
-    .content {
-        padding-left: 10px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-between;
-        position: relative;
-    }
-
-    .content h3 {
-        font-size: 30px;
-        position: relative;
-        left: 50px;
-        bottom: 30px;
-        color: rgb(252, 59, 59);
-
-
-    }
-
-    .content h1 {
-        font-size: 30px;
-        position: relative;
-        bottom: 100px;
-        left: 60px;
-        color: brown;
-
-    }
-
-    .content p {
-        color: rgb(252, 59, 59);
-        font-size: 21px;
-        position: relative;
-        bottom: 140px;
-        left: 48px;
-
-
-    }
-
-    .content a {
-        position: absolute;
-        bottom: 15%;
-        left: 40%;
-
-    }
-
-    .button {
-        font-size: 15px;
-        padding: 5px 40px 45px 68px;
-    }
-
-    .cn3 {
-        width: 100%;
-        height: 200px;
-    }
-
-    .map iframe {
-        padding: 50px;
-        margin-top: 30px;
-        width: 250px;
-        height: 250px;
-    }
-
-    .FF .box {
-        margin-left: 50px;
-        margin-bottom: 20px;
-        width: 200px;
-        height: 150px;
-    }
-
-    .FF {
-        display: inline;
-        justify-content: space-between;
-        width: 20px;
-        height: 20px;
-    }
-
-    .cn2 {
-        justify-content: space-between;
-    }
-
-    #fb {
-        margin-left: 20px;
-    }
 }
-@media screen (max-width: 380px){
+@media(max-width:300px) {
     #header{
-        width: 20%;
+        width: 100%;
+    }
+    #hero {
+        width: 100%;
     }
     .content h3 {
-        top: 5px;
-        left: 85px;
-        position: absolute;
-        font-size: 3px;
+        right: 16px;
+        bottom: 59px;
+        font-size: 36px;
     }
+    
     .content h1 {
-    top: -33px;
-    left: 57px;
-    position: absolute;
-    font-size: 3px;
+        right: 16px;
+        font-size: 25px;
     }
+    
     .content p {
-        bottom: 55px;
-        left: -38px;
-        font-size: 2px;
+        right: 26px;
+        bottom: 191px;
+        font-size: 16px;
     }
+    
     .content button {
-        padding: 8px 78px 80px 98px;
-        right: 108px;
+        right: 86px;
+        font-size: 16px;
     }
-}
-
-
 }
