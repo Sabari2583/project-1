@@ -522,11 +522,39 @@ textarea {
     .content p {
         right: 26px;
         bottom: 191px;
-        font-size: 16px;
+        font-size: 15px;
     }
     
     .content button {
         right: 86px;
         font-size: 16px;
+    }
+    .FF{
+        margin-left: -27px;
+    }
+    #add .add1 h3 {
+        font-size: 29px;
+    }
+    .bb1 p{
+        font-size: 15px;
+        
+    }
+    #prod1 h3{
+        font-size: 23px;
+    }
+    .p1 img {
+        height: 70%;
+        width: 100%;
+    }
+    #fb h3 {
+        margin-top: 7px;
+        font-size: 20px;
+    }
+    #con2{
+        display: inline;
+    }
+    .map {
+        margin-left: 20px;
+        width: 80%;
     }
 }
