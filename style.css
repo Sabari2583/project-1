@@ -500,6 +500,9 @@ textarea {
         width: 110%;
         height: 450px;
     }
+    #table{
+        display:none;
+    }
 }
 @media(max-width:300px) {
     #header{
