@@ -424,6 +424,11 @@ textarea {
 .by1{
     text-align: center;
 }
+.by1 tr:last-child td {
+    font-weight: bold;
+    font-size: 1.2em;
+    background-color: #f8f8f8;
+}
 #table .by1 img {
     border: 1px solid skyblue;
     width: 100px;
