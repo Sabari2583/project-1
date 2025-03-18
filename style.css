@@ -509,6 +509,56 @@ textarea {
         display:none;
     }
 }
+@media (max-width: 600px) {
+    #header img {
+        max-width: 80px; /* Smaller logo on mobile */
+    }
+
+    .bar ul {
+        flex-direction: column; /* Ensure the navigation is stacked vertically */
+        align-items: center;
+    }
+
+    .bar ul li {
+        margin: 8px 0;
+    }
+
+    #hero h3 {
+        font-size: 1.5rem;
+    }
+
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    #hero p {
+        font-size: 1rem;
+    }
+
+    #hero .button {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+
+    #feature .FF {
+        flex-direction: column; /* Stack the feature boxes vertically */
+        justify-content: center;
+    }
+
+    .box {
+        width: 90%; /* Take up most of the screen on mobile */
+        margin-bottom: 20px;
+    }
+
+    #add h3 {
+        font-size: 1.5rem;
+    }
+
+    #add .but1 {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+}
 @media(max-width:300px) {
     #header{
         width: 100%;
